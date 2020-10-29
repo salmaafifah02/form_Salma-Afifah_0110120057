@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Regitrasi Perpustakaan Siswa</title>
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <fieldset id="informasi_personal" style="background-color: azure;" style="text-align: center;">
+                <legend><h1>Formuir Registrasi Perpustakaan Siswa</h1></legend>
+                <h4>DATA PERSONAL</h4>
+                <hr>
+                <div id="nama">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" placeholder="masukkan nama" size="50">
+                </div>
+                <br>
+
+                <div id="date">
+                    <label for="date">Tanggal Lahir</label>
+                    <input type="date" name="date" id="date" value="2020-10-01">
+                </div>
+                <br>
+
+                <div id="alamat">
+                    <label for="alamat">Alamat Lengkap</label>
+                    <textarea name="alamat" id="alamat" cols="30" rows="4"></textarea>
+                </div>
+                <br>
+
+                <div id="jk">
+                    <label for="jk">Jenis Kelamin</label>
+                    <input type="radio" name="jk" value="L"/>Laki-laki 
+                    <input type="radio" name="jk" value="P"/>Perempuan
+                </div>
+                <br><br>
+
+                <h4>KONTAK PERSONAL</h4>
+                <hr>
+                <div id="email">
+                    <label for="email">E-Mail</label>
+                    <input id="email" type="email"required name="email" placeholder="userexample@what.com" size="50">
+                </div>
+                <br>
+
+                <div id="telepon">
+                    <label for="telepon">Nomor Telepon</label>
+                    <input type="text" id="telepon" name="telepon" placeholder="masukkan nomor telepon" size="50">
+                </div>
+                <br>
+
+                <div id="pos">
+                    <label for="pos">Kode Pos</label>
+                    <input type="text" id="pos" name="pos" placeholder="masukkan kode pos" size="50">
+                </div>
+                <br>
+
+                <h4>PILIHAN</h4>
+                <hr>
+                <div id="mb">
+                    <label for="mb">Tipe Membership</label>
+                    <select name="mb" id="mb">
+                        <option value="">-Pilih-</option>
+                        <option value="Regular">-Regular-</option>
+                        <option value="Premium">-Premium-</option>
+                        <option value="VIP">-VIP-</option>
+                    </select>
+                </div>
+                <br>
+
+                <div id="byr">
+                    <label for="byr">Metode Pembayaran</label>
+                    <input type="radio" name="byr" value="P"/>Paypal
+                    <input type="radio" name="byr" value="B"/>Bank
+                    <input type="radio" name="byr" value="O"/>OVO
+                    <input type="radio" name="byr" value="L"/>Bayar ditempat
+                </div>
+                <br><br>
+                
+            </fieldset>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
